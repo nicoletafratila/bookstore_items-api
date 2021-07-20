@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	os.Setenv("LOG_LEVEL", "info")
+	os.Setenv("LOG_LEVEL", "error")
 	app.StartApplication()
 }
